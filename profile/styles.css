@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  background-color: cadetblue;
+  color: white;
+}
+.navbar > h2 > a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.nav-links > li > a {
+  text-decoration: none;
+  color: white;
+}
+.nav-links > li {
+  margin-left: 20px;
+  font-size: 1.125rem;
+  list-style-type: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.hero > .text > .intro {
+  font-size: 20px;
+}
+
+.hero > .text > h1 {
+  font-size: 70px;
+  margin: 10px 0;
+}
+
+.hero > .text > .bio {
+  font-size: 24px;
+  padding-right: 30%;
+}
+
+.hero > .text > .bio > span {
+  color: cadetblue;
+}
+
+.hero > div > img {
+  width: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+main {
+  padding: 0 100px;
+}
+
+main > h2 {
+  font-size: 22px;
+}
+
+main > section > .details > ul > li {
+  list-style-type: none;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+main > section > .details > p {
+  font-size: 19px;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+}
+
+main > section > .details > ol > li {
+  list-style-type: none;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.contact-button,
+.contact-button-btn {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #ff6392;
+  box-shadow: 0 5px #ff0a78;
+}
+.contact-button:hover {
+  box-shadow: 0 3px #ff0a78;
+  top: 1px;
+}
+.contact-button:active {
+  box-shadow: 0 0 #ff0a78;
+  top: 5px;
+}
+
+.cta {
+  text-align: center;
+  margin: 10px 0;
+}
+.reg-cta {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 100px 60px 100px;
+}
+
+form > .name,
+.email {
+  padding: 10px 8px;
+  max-width: 50%;
+  margin: 10px 0;
+}
+
+form > .contact-button-btn {
+  width: 10%;
+}
+
+form > .message {
+  padding: 20px 8px;
+  max-width: 50%;
+  margin: 10px 0;
+}
+
+footer {
+    /* position: absolute;
+    width: 100%;
+    bottom: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background-color: cadetblue;
+  color: white;
+  padding: 20px 0;
+  font-size: 20px;
+  margin-top: 30px;
+}
